@@ -34,7 +34,7 @@ Click one of the links below to learn more about our Team!
 </a>
 
 </div>
-<p>boom     booom                    booom    booom </p>
+<p>Pierre Balinda, Daniel Mackowski, Faisal Aldhorgham, Carson Mcgorry, Ben Kasson</p>
 
 **Physical Resources**
 

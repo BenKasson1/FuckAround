@@ -400,12 +400,12 @@ shows the Mega and the Pi were the only two microcontrollers to not pass the fea
 The feasible options were then judged based on the merit criteria. The design of the software will have the microcontroller in sleep mode for a substantially larger amount of time than it will have it in active mode. This means that a low sleep mode current consumption value is more important than a low active mode current consumption value. Due to the greater weight of the sleep mode current consumption value, the STM32 L4 microcontroller, shown in Figure 1, was selected, as Table 3 shows it has the lowest sleep mode current consumption and the second lowest active consumption.
 
 #### Figure 1: STM32 L4 microcontroller[5]
-![Microcontroller Features](https://github.com/BenKasson1/DocumentationAg2/blob/master/docs/assets/images/MicrocontrollerFeatures.png?raw=true")
+![Microcontroller STM32](https://github.com/BenKasson1/DocumentationAg2/blob/master/docs/assets/images/STM32.png?raw=true")
 
 Although the Pi, as shown in Figure 2, was not selected to be the node’s microcontroller, it was selected to be the central station’s microcontroller for its remarkable features. The Pi boast specs that are comparable to those of a personal computer, it has a built-in OS, a 1.2 GHz 64-bit quad-core ARM CPU, 1GB RAM, Wi-Fi (802.11n), Ethernet (802.3), Bluetooth 4.1, and Bluetooth LTE capabilities to name a few. It only needs a power supply and input and output devices[2].
 
 #### Figure 2: Raspberry Pi 3 Model B[2]
-[insert image]
+[![Microcontroller Raspberry Pi 3](https://github.com/BenKasson1/DocumentationAg2/blob/master/docs/assets/images/RP.png?raw=true")
 
 ### Communication protocol
 
@@ -425,7 +425,8 @@ As per the client’s specifications, the communication protocol had to be capab
 The feasible options were then judged based on the merit criteria. The maximum number of connectable nodes and battery life are more important than the maximum range and unit cost. The later pair was weighted less because both chip options considered have a communication range well beyond 40 meters and have a minimal cost difference. A ZigBee communication protocol chip was selected for this project. An example of which is shown in Figure 3. It was selected because, as shown in Table 5 on the following page, it has the greatest number of connections and the longer battery life.
 
 #### Figure 3 Microchip Technology MRF24J40MAT-I/RM ZigBee transceiver[25]
-[insert image]
+[![Microcontroller Raspberry Pi 3](https://github.com/BenKasson1/DocumentationAg2/blob/master/docs/assets/images/Zigby.png?raw=true")
+
  
 &nbsp;
  
@@ -445,7 +446,8 @@ The feasible options were then judged based on the merit criteria. The maximum n
 The Arduino Hygrometer, SFESMS, and DFRobot’s “Capacitive Soil Moisture Sensor” were checked against the feasibility and merit criteria to determine which potential soil moisture sensor would be selected for this project. Each of them met the feasibility criteria for microcontroller interface capability, costing less than $15, in-soil operability, and analog output capability. The Arduino Hygrometer, shown in Figure 4, was selected as the best alternative for a soil moisture sensor, as it had the cheapest price. The prices were $2.75[20], $4.95[21], and $7.90[22], respectively.
 
 #### Figure 4: Arduino Soil Moisture Sensor Hygrometer[20]
-[insert image]
+[![Moisture Sensor](https://github.com/BenKasson1/DocumentationAg2/blob/master/docs/assets/images/MoistureSensor.png?raw=true")
+
 
 The DS18B20 and the 1WTSSSP were checked against the feasibility and merit criteria to determine which potential soil temperature sensor would be selected for this project. They both met the general feasibility criteria for microcontroller interface capability, costing less than $15, and in-soil operability. The main difference between the two was the housing for the temperature sensor and the ranges they were designed to measure: the former specifically stated to be waterproof and to output on a -10℃ to +85℃ range at a cost of $9.95[16]; the later stainless steel and to output on a -40℃ to +105℃ range at a cost of $11[17]. 
 

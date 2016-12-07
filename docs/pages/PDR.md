@@ -400,7 +400,7 @@ shows the Mega and the Pi were the only two microcontrollers to not pass the fea
 The feasible options were then judged based on the merit criteria. The design of the software will have the microcontroller in sleep mode for a substantially larger amount of time than it will have it in active mode. This means that a low sleep mode current consumption value is more important than a low active mode current consumption value. Due to the greater weight of the sleep mode current consumption value, the STM32 L4 microcontroller, shown in Figure 1, was selected, as Table 3 shows it has the lowest sleep mode current consumption and the second lowest active consumption.
 
 #### Figure 1: STM32 L4 microcontroller[5]
-[insert image
+![Microcontroller Features](https://github.com/BenKasson1/DocumentationAg2/blob/master/docs/assets/images/MicrocontrollerFeatures.png?raw=true")
 
 Although the Pi, as shown in Figure 2, was not selected to be the node’s microcontroller, it was selected to be the central station’s microcontroller for its remarkable features. The Pi boast specs that are comparable to those of a personal computer, it has a built-in OS, a 1.2 GHz 64-bit quad-core ARM CPU, 1GB RAM, Wi-Fi (802.11n), Ethernet (802.3), Bluetooth 4.1, and Bluetooth LTE capabilities to name a few. It only needs a power supply and input and output devices[2].
 

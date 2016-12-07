@@ -34,7 +34,7 @@ Click one of the links below to learn more about our Team!
 </a>
 
 </div>
-<p>boom     booom    booom    booom </p>
+<p>boom     booom                    booom    booom </p>
 
 **Physical Resources**
 

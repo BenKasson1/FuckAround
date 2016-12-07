@@ -184,4 +184,4 @@ read-out
 
 ●It measures and displays the acidity/alkalinity of garden and container soil.
 
-[Test a spreadsheet](https://docs.google.com/spreadsheets/d/1z-WnUhp07L0hd9GBKKbKFjkjBG45DkJnUDuAHsAOZsM/pubhtml?widget=true&amp;headers=false)
+[To see the Merit and Feasibility Criteria Click Here!](https://docs.google.com/spreadsheets/d/1z-WnUhp07L0hd9GBKKbKFjkjBG45DkJnUDuAHsAOZsM/pubhtml?widget=true&amp;headers=false)

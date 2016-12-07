@@ -7,7 +7,7 @@ permalink: /about/
 
 To update this documentation site you have a couple options. Either contact the site admin through Github using a pull request with your specific changes, or simply fork the repository on your Github account and act as the site administrator yourself.
 
-[![Fork GitHub](https://github.com/BenKasson1/DocumentationAg2/blob/master/docs/assets/images/MoistureSensor.png?raw=true")
+[![Fork GitHub](https://github.com/BenKasson1/DocumentationAg2/blob/master/docs/assets/images/GHFork.png?raw=true")
 
 In the **upper right** of any GitHub project is the button showed in the **image above**. By clicking Fork you have sent yourself an editable version of the repository. 
 

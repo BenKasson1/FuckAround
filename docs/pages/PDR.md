@@ -454,14 +454,14 @@ The DS18B20 and the 1WTSSSP were checked against the feasibility and merit crite
 The DS18B20, shown in Figure 5, was selected as the best alternative due to being $1.05 cheaper than the later and being explicitly waterproof in spite of the fact that it did not contain the entire low end of the desired temperature range. The -15 ℃ on the low end of the desired range was just for a margin in case soil temperatures actually get that low when the sensor is in use. The -10 ℃ (14 ℉) temperature for the low end of the selected alternative is acceptable for soil temperature measuring in agricultural environments.
 
 #### Figure 5: Sparkfun Electronics’ “DS18B20 Waterproof Temperature Sensor”[16]
-[insert image]
+[![Temp Sensor](https://github.com/BenKasson1/DocumentationAg2/blob/master/docs/assets/images/WaterproofTemperatureSensor.png?raw=true")
 
 DFRobot’s “pH Meter” and the Luster Leaf were checked against the feasibility and merit criteria to determine which potential soil pH sensor would be selected for this project. The former was priced at $29.50 and was not designed for use in soil, though it was designed to interface with a microcontroller[23]. The later was priced at $10.99 and was designed specifically to be used in soil, but was designed as a general consumer product[19].
 
 Despite the fact that both alternatives failed at least one feasibility criterion (microcontroller interface capability, costing less than $15, and in-soil operability), the Luster Leaf’s “Digital Soil pH Meter” was selected as the best alternative for a soil pH sensor because it was the alternative that met the most feasibility criteria. Though the chosen alternative, as shown in Figure 6 on the following page, was not designed to interface with an external microcontroller, the sensor’s circuitry can be taken out of its housing for analysis and modification to allow it to interface with a microcontroller as the project requires.
 
 #### Figure 6 Luster Leaf’s “Digital Soil pH Meter”[19]
-[insert image]
+[![PH Sensor](https://github.com/BenKasson1/DocumentationAg2/blob/master/docs/assets/images/SoilPH.png?raw=true")
 
 ### User interface
 
@@ -480,7 +480,7 @@ The team determined the five main components of the project to be considered in 
 A simple visualization of the node below the soil, as seen in in Figure 7, shows the idea of the different depths the sensors will be attached at.Then the team considered what appropriate test plans would be to determine if the system is functioning as intended.
 
 #### Figure 7 Sensor node component general locations
-[insert image]
+[![General node component](https://github.com/BenKasson1/DocumentationAg2/blob/master/docs/assets/images/CompLoc.png?raw=true")
 
 Figure 8 shows a visual representation of the proof of concept design when it is implemented on a test site. The furthest node will have three different sensors at three different levels. The sensors will be secured to a central shaft and be connected to the microcontroller with a ZigBee transceiver secured to the top of the shaft. All three nodes will be placed into holes two feet deep in the soil. After that, the microcontroller will command the ZigBee transceiver to send the sensor data to the second node that is 10 to 40 meters away. The second node will only have the microcontroller and ZigBee acting as a mediator to get the data to the third node. The third node then will then send the data to the central station after receiving it from the second node.
 

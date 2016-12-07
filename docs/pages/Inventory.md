@@ -7,8 +7,9 @@ permalink: /Invntry/
 **Human Resources**
 [![Pierre Balinda](https://github.com/BenKasson1/DocumentationAg2/blob/master/docs/assets/images/Pierre.jpg?raw=true" {width=40px height=40px})](https://benkasson1.github.io/DocumentationAg2/PierreBalindaRsm/)
 
-<img src="https://github.com/BenKasson1/DocumentationAg2/blob/master/docs/assets/images/Pierre.jpg?raw=true" alt="Pierre" width="50" height="50">
-
+<a href= "https://benkasson1.github.io/DocumentationAg2/PierreBalindaRsm/">
+<img src="https://github.com/BenKasson1/DocumentationAg2/blob/master/docs/assets/images/Pierre.jpg?raw=true" alt="Pierre" width="100" height="100">
+</a>
 **Sensors**
 
 For this project, three types of sensors will be used, moisture, temperature, and pH sensors.

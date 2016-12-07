@@ -4,7 +4,8 @@ title: Project Inventory
 date: 2016-11-14 11:43:44 +0000
 permalink: /Invntry/
 ---
-
+**Human Resources**
+[![Pierre Balinda](https://github.com/BenKasson1/DocumentationAg2/blob/master/docs/assets/images/Pierre.jpg?raw=true")](https://benkasson1.github.io/DocumentationAg2/PierreBalindaRsm/)
 
 **Sensors**
 

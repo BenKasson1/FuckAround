@@ -27,6 +27,10 @@ permalink: /Invntry/
 </a>
 
 </div>
+
+**Physical Resources**
+
+
 **Sensors**
 
 For this project, three types of sensors will be used, moisture, temperature, and pH sensors.
